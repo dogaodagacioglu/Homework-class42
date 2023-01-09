@@ -1,0 +1,165 @@
+2023-01-09 08:17:33 info: --------------------------------------------
+2023-01-09 08:17:33 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2023-01-09 08:17:33 info: --------------------------------------------
+2023-01-09 08:17:33 warn: A unit test file was not provided.
+2023-01-09 08:17:40 error: *** Spell Checker Report ***
+
+
+2023-01-09 08:18:25 info: ----------------------------------------------
+2023-01-09 08:18:25 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2023-01-09 08:18:25 info: ----------------------------------------------
+2023-01-09 08:18:31 error: *** Unit Test Error Report ***
+
+✕ giveCompliment should have all TODO comments removed
+✕ giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are awesome, HackYourFuture!
+  Received: You are awesome, HackYourFuture !
+
+
+Command failed: npx jest ex1-giveCompliment.test.js --colors --reporters="C:\Users\KZY\OneDrive\Masaüstü\homework repository\Homework-class42\test-runner\CustomReporter.js"
+2023-01-09 08:18:37 error: *** Spell Checker Report ***
+
+
+2023-01-09 08:33:47 info: ----------------------------------------------
+2023-01-09 08:33:47 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2023-01-09 08:33:47 info: ----------------------------------------------
+2023-01-09 08:33:51 error: *** Unit Test Error Report ***
+
+✕ giveCompliment should have all TODO comments removed
+✕ giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are awesome, HackYourFuture!
+  Received: You are awesome, HackYourFuture !
+
+
+Command failed: npx jest ex1-giveCompliment.test.js --colors --reporters="C:\Users\KZY\OneDrive\Masaüstü\homework repository\Homework-class42\test-runner\CustomReporter.js"
+2023-01-09 08:33:57 error: *** Spell Checker Report ***
+
+
+2023-01-09 08:35:26 info: ----------------------------------------------
+2023-01-09 08:35:26 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2023-01-09 08:35:26 info: ----------------------------------------------
+2023-01-09 08:35:30 error: *** Unit Test Error Report ***
+
+✕ giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are awesome, HackYourFuture!
+  Received: You are awesome, HackYourFuture !
+
+
+Command failed: npx jest ex1-giveCompliment.test.js --colors --reporters="C:\Users\KZY\OneDrive\Masaüstü\homework repository\Homework-class42\test-runner\CustomReporter.js"
+2023-01-09 08:35:36 error: *** Spell Checker Report ***
+
+
+2023-01-09 08:36:57 info: Disclaimer turned off
+2023-01-09 08:37:12 info: ----------------------------------------------
+2023-01-09 08:37:12 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2023-01-09 08:37:12 info: ----------------------------------------------
+2023-01-09 08:37:17 info: All unit tests passed.
+2023-01-09 08:37:23 error: *** Spell Checker Report ***
+
+
+2023-01-09 08:38:24 info: ----------------------------------------------
+2023-01-09 08:38:24 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2023-01-09 08:38:24 info: ----------------------------------------------
+2023-01-09 08:38:28 info: All unit tests passed.
+2023-01-09 08:38:33 error: *** Spell Checker Report ***
+
+
+2023-01-09 08:38:49 info: ----------------------------------------
+2023-01-09 08:38:49 info: >>> Running Unit Test `ex2-dogYears` <<<
+2023-01-09 08:38:49 info: ----------------------------------------
+2023-01-09 08:38:54 info: All unit tests passed.
+2023-01-09 08:38:59 error: *** Spell Checker Report ***
+
+
+2023-01-09 08:49:03 info: -----------------------------------------
+2023-01-09 08:49:03 info: >>> Running Unit Test `ex6-totalCost` <<<
+2023-01-09 08:49:03 info: -----------------------------------------
+2023-01-09 08:49:03 warn: A unit test file was not provided.
+2023-01-09 08:49:09 error: *** Spell Checker Report ***
+
+
+2023-01-09 08:49:58 info: -------------------------------------------
+2023-01-09 08:49:58 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2023-01-09 08:49:58 info: -------------------------------------------
+2023-01-09 08:49:58 warn: A unit test file was not provided.
+2023-01-09 08:50:04 error: *** Spell Checker Report ***
+
+
+2023-01-09 08:50:32 info: ------------------------------------------------
+2023-01-09 08:50:32 info: >>> Running Unit Test `ex5-shoppingCartPure` <<<
+2023-01-09 08:50:32 info: ------------------------------------------------
+2023-01-09 08:50:32 warn: A unit test file was not provided.
+2023-01-09 08:50:38 error: *** Spell Checker Report ***
+
+
+2023-01-09 09:03:04 info: ------------------------------------------------
+2023-01-09 09:03:04 info: >>> Running Unit Test `ex5-shoppingCartPure` <<<
+2023-01-09 09:03:04 info: ------------------------------------------------
+2023-01-09 09:03:04 warn: A unit test file was not provided.
+2023-01-09 09:03:09 error: *** Spell Checker Report ***
+
+
+2023-01-09 09:48:44 info: ----------------------------------------------
+2023-01-09 09:48:44 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2023-01-09 09:48:44 info: ----------------------------------------------
+2023-01-09 09:48:52 info: All unit tests passed.
+2023-01-09 09:49:02 error: *** Spell Checker Report ***
+
+
+2023-01-09 09:51:05 info: ----------------------------------------------
+2023-01-09 09:51:05 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2023-01-09 09:51:05 info: ----------------------------------------------
+2023-01-09 09:51:13 info: All unit tests passed.
+2023-01-09 09:51:24 error: *** Spell Checker Report ***
+
+
+2023-01-09 09:52:52 info: ----------------------------------------
+2023-01-09 09:52:52 info: >>> Running Unit Test `ex2-dogYears` <<<
+2023-01-09 09:52:52 info: ----------------------------------------
+2023-01-09 09:52:59 info: All unit tests passed.
+2023-01-09 09:53:07 error: *** Spell Checker Report ***
+
+
+2023-01-09 09:55:23 info: ----------------------------------------
+2023-01-09 09:55:23 info: >>> Running Unit Test `ex2-dogYears` <<<
+2023-01-09 09:55:23 info: ----------------------------------------
+2023-01-09 09:55:29 info: All unit tests passed.
+2023-01-09 09:55:36 error: *** Spell Checker Report ***
+
+
+2023-01-09 10:07:44 info: -------------------------------------------
+2023-01-09 10:07:44 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2023-01-09 10:07:44 info: -------------------------------------------
+2023-01-09 10:07:52 error: *** Unit Test Error Report ***
+
+✕ tellFortune `numKids` should be an array initialized with 5 elements
+✕ tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a trader in amsterdam, married to marry with 0 kids.
+  Received:  You will be a trader in amsterdam, married to marry, with 0 kids 
+
+
+Command failed: npx jest ex3-tellFortune.test.js --colors --reporters="C:\Users\KZY\OneDrive\Masaüstü\homework repository\Homework-class42\test-runner\CustomReporter.js"
+2023-01-09 10:08:00 error: *** Spell Checker Report ***
+
+
+2023-01-09 10:09:26 info: -------------------------------------------
+2023-01-09 10:09:26 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2023-01-09 10:09:26 info: -------------------------------------------
+2023-01-09 10:09:33 error: *** Unit Test Error Report ***
+
+✕ tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a trader in amsterdam, married to marry with 0 kids.
+  Received: You will be a trader in amsterdam, married to marry, with 0 kids.
+
+
+Command failed: npx jest ex3-tellFortune.test.js --colors --reporters="C:\Users\KZY\OneDrive\Masaüstü\homework repository\Homework-class42\test-runner\CustomReporter.js"
+2023-01-09 10:09:42 error: *** Spell Checker Report ***
+
+
+2023-01-09 10:10:07 info: -------------------------------------------
+2023-01-09 10:10:07 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2023-01-09 10:10:07 info: -------------------------------------------
+2023-01-09 10:10:13 info: All unit tests passed.
+2023-01-09 10:10:21 error: *** Spell Checker Report ***
+
+
