@@ -28,10 +28,10 @@ const cartForParty = {
     gum : 0.50,
 };
 
-function calculateTotalPrice(numbers){
-  let newValues = Object.values(numbers);
+function calculateTotalPrice(partyİtems){
+  let valueOfitems = Object.values(partyİtems);
   let totalPrice=0;
-  newValues.forEach(number =>totalPrice+=number)
+  valueOfitems.forEach(number =>totalPrice+=number)
   return `Total: €${totalPrice}`
 }
 

@@ -15,8 +15,8 @@ calculate it!
 2. Use `console.log` to display the result of the function for three different
    ages.
 -----------------------------------------------------------------------------*/
-function calculateDogAge(number){
-  const changeAge = number * 7;
+function calculateDogAge(dogAge){
+  const changeAge = dogAge * 7;
   return `Your doggie is ${changeAge} years old in dog years!`;
 }
 

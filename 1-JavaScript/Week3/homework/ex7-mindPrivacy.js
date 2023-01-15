@@ -30,13 +30,13 @@ const employeeRecords = [
 ];
 
 // ! Function under test
-function filterPrivateData(generic){
-  let newList = [];
-  for(let i =0; i<generic.length; i++){
-  let {gender,salary, ...newEmployee} = generic[i];
-  newList.push(newEmployee);
+function filterPrivateData(infoOfPersons){
+  let genericİnfo = [];
+  for(let i =0; i<infoOfPersons.length; i++){
+  let {gender,salary, ...newEmployee} = infoOfPersons[i];
+  genericİnfo.push(newEmployee);
   }
-  return newList;
+  return genericİnfo;
 }
 
 
