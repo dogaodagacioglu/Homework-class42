@@ -548,3 +548,31 @@ Ran all test suites matching /ex4-observable.test.js/i.
 2023-01-17 12:14:20 error: *** Spell Checker Report ***
 
 
+2023-01-24 03:24:09 info: ----------------------------------------------
+2023-01-24 03:24:09 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2023-01-24 03:24:09 info: ----------------------------------------------
+2023-01-24 03:24:16 info: All unit tests passed.
+2023-01-24 03:24:22 error: *** Spell Checker Report ***
+
+
+2023-01-24 03:25:06 info: ----------------------------------------------
+2023-01-24 03:25:06 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2023-01-24 03:25:06 info: ----------------------------------------------
+2023-01-24 03:25:10 info: All unit tests passed.
+2023-01-24 03:25:16 error: *** Spell Checker Report ***
+
+
+2023-01-24 03:28:42 info: ----------------------------------------------
+2023-01-24 03:28:42 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2023-01-24 03:28:42 info: ----------------------------------------------
+2023-01-24 03:28:46 info: All unit tests passed.
+2023-01-24 03:28:51 error: *** Spell Checker Report ***
+
+
+2023-01-24 03:38:49 info: ----------------------------------------------
+2023-01-24 03:38:49 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2023-01-24 03:38:49 info: ----------------------------------------------
+2023-01-24 03:38:53 info: All unit tests passed.
+2023-01-24 03:38:59 error: *** Spell Checker Report ***
+
+
