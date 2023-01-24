@@ -21,8 +21,52 @@ Full description at: https://github.com/HackYourFuture/Homework/tree/main/2-Brow
 
    https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif
 -----------------------------------------------------------------------------*/
+const catImg = document.querySelector('img');
+catImg.style.left = '0px';
+
 function catWalk() {
-  // TODO complete this function
+
+  const currentPosition = parseInt(catImg.style.left);
+  catImg.style.left = (currentPosition + 10) + 'px';
+
+  const position = catImg.getBoundingClientRect();
+
+  if (position.x > (window.innerWidth - catImg.width)/2) {
+  catImg.style.left = `${(window.innerWidth - catImg.width)/2}px`;
+  catImg.src = 'https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
+
+  function danceOver() {
+    
+  }
 }
 
+  
+
+  if (position.x > window.innerWidth - catImg.width) {
+    catImg.style.left = 0;
+  }
+  
+
+
+ }
+ setInterval(catWalk, 50);
+
+
+
+
 // TODO execute `catWalk` when the browser has completed loading the page
+// let hours = currentTime.getHours();
+//   let minutes = currentTime.getMinutes();
+//   let seconds = currentTime.getSeconds();
+
+//   hours = (hours < 10) ? "0" + hours : hours;
+//   minutes = (minutes < 10) ? "0" + minutes : minutes;
+//   seconds = (seconds < 10) ? "0" + seconds : seconds;
+  
+//   let timeString = hours + ":" + minutes + ":" + seconds;
+//   console.log(timeString);
+
+//   if(parseInt(catImg.style.left) === 5){
+//     const catDance = document.querySelector('<img>');
+//     catDance.src = 'https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
+//     setInterval(catDance,5000);
