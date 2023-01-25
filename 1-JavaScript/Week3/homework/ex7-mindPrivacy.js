@@ -31,12 +31,14 @@ const employeeRecords = [
 
 // ! Function under test
 function filterPrivateData(infoOfPersons){
-  let genericİnfo = [];
+  const genericInfo = [];
   for(let i =0; i<infoOfPersons.length; i++){
-  let {gender,salary, ...newEmployee} = infoOfPersons[i];
-  genericİnfo.push(newEmployee);
+  const {gender,salary, ...newEmployee} = infoOfPersons[i];
+  genericInfo.push(newEmployee);
+  console.log(gender);
+  console.log(salary);
   }
-  return genericİnfo;
+  return genericInfo;
 }
 
 

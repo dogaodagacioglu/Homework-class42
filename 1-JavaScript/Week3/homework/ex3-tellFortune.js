@@ -38,11 +38,11 @@ function selectRandomly(items) {
   return items[Math.floor(Math.random() * items.length)];
 }
 
-function tellFortune(numKidsİtem, partnerNamesİtem, locationsİtem, jobTitlesİtem) {
-  const numKid = selectRandomly(numKidsİtem);
-  const partnerName = selectRandomly(partnerNamesİtem);
-  const location = selectRandomly(locationsİtem);
-  const jobTitle = selectRandomly(jobTitlesİtem);
+function tellFortune(numberKid, nameOfPartner, newLocation, newJob) {
+  const numKid = selectRandomly(numberKid);
+  const partnerName = selectRandomly(nameOfPartner);
+  const location = selectRandomly(newLocation);
+  const jobTitle = selectRandomly(newJob);
   return `You will be a ${jobTitle} in ${location}, married to ${partnerName} with ${numKid} kids.`;
 }
 
