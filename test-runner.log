@@ -534,3 +534,62 @@ Ran all test suites matching /ex4-observable.test.js/i.
 2023-01-15 06:05:58 error: *** Spell Checker Report ***
 
 
+2023-01-25 11:05:15 info: ------------------------------------------------------
+2023-01-25 11:05:15 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2023-01-25 11:05:15 info: ------------------------------------------------------
+2023-01-25 11:05:23 info: All unit tests passed.
+2023-01-25 11:05:35 info: All steps were completed successfully
+2023-01-25 11:07:11 info: -------------------------------------------------
+2023-01-25 11:07:11 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2023-01-25 11:07:11 info: -------------------------------------------------
+2023-01-25 11:07:16 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-mondaysWorth.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js
+  ● Test suite failed to run
+
+    Your test suite must contain at least one test.
+
+      at onResult (node_modules/@jest/core/build/TestScheduler.js:172:18)
+      at node_modules/@jest/core/build/TestScheduler.js:302:19
+      at node_modules/emittery/index.js:311:13
+          at Array.map (<anonymous>)
+      at Emittery.emit (node_modules/emittery/index.js:309:23)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        0.923 s
+Ran all test suites matching /ex2-mondaysWorth.test.js/i.
+2023-01-25 11:07:20 error: *** ESLint Report ***
+
+ex2-mondaysWorth.test.js
+  13:7   error    'mondayTasks' is assigned a value but never used  no-unused-vars
+  32:7   error    'hourlyRate' is assigned a value but never used   no-unused-vars
+  34:10  error    'computeEarnings' is defined but never used       no-unused-vars
+  43:1   warning  Remove commented-out code                         hyf/no-commented-out-code
+  50:1   warning  Remove commented-out code                         hyf/no-commented-out-code
+
+✖ 5 problems (3 errors, 2 warnings)
+
+
+2023-01-25 11:07:39 info: -------------------------------------------------
+2023-01-25 11:07:39 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2023-01-25 11:07:39 info: -------------------------------------------------
+2023-01-25 11:07:44 info: All unit tests passed.
+2023-01-25 11:07:51 info: All steps were completed successfully
+2023-01-25 11:13:12 info: -------------------------------------------------
+2023-01-25 11:13:12 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2023-01-25 11:13:12 info: -------------------------------------------------
+2023-01-25 11:13:17 info: All unit tests passed.
+2023-01-25 11:13:25 info: All steps were completed successfully
+2023-01-25 11:14:31 info: ------------------------------------------
+2023-01-25 11:14:31 info: >>> Running Unit Test `ex4-observable` <<<
+2023-01-25 11:14:31 info: ------------------------------------------
+2023-01-25 11:14:35 info: All unit tests passed.
+2023-01-25 11:14:43 info: All steps were completed successfully
+2023-01-25 11:15:05 info: --------------------------------------
+2023-01-25 11:15:05 info: >>> Running Unit Test `ex5-wallet` <<<
+2023-01-25 11:15:05 info: --------------------------------------
+2023-01-25 11:15:09 info: All unit tests passed.
+2023-01-25 11:15:17 info: All steps were completed successfully

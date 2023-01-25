@@ -26,8 +26,8 @@ const fruitBasket = [
 ];
 
 // ! Function under test
-function sanitizeFruitBasket(generic, allergy) {
-  const freshBasket = generic.filter ((fruit)=> fruit !== allergy);
+function sanitizeFruitBasket(generic, dangerousFruit) {
+  const freshBasket = generic.filter ((fruit)=> fruit !== dangerousFruit);
   return freshBasket
 }
 

@@ -32,13 +32,8 @@ const mondayTasks = [
 const hourlyRate = 25;
 
 function computeEarnings(tasks,rate) {
-    // const timeRow = [];
-    //   for(let i = 0; i<tasks.length; i++){
-    //       timeRow.push(tasks[i].duration);
-    // }
-    const sum = tasks.map(minute => minute.duration).reduce((a,b)=> a+b );
-    // let sum= 0 ;
-    // timeRow.forEach((element)=> sum += element);
+   
+    const sum = tasks.map(minute => minute.duration).reduce((totalTime,minuteTime,)=> totalTime+minuteTime );
     
     const totalHoursPrice = (sum / 60)*rate ; 
     return `€${totalHoursPrice.toFixed(2)}`
