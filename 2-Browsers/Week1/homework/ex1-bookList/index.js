@@ -16,47 +16,29 @@ https: //hyf-js2-week1-makeme-ex1-demo.herokuapp.com/
 
 -----------------------------------------------------------------------------*/
 //cspell: enable
+
+
 function createBookList(books) {
-  const title = document.createElement('p');
-  const img = document.createElement('img');
-  const bookList = document.createElement('ul');
-  for (const book of books) {
-    const bookElement = document.createElement('li');
-    // //bookElement.classLi = book.alreadyRead ? 'green' : 'red';
-    // book.alreadyRead
-    //   ? bookElement.classLi.add('green')
-    //   : bookElement.classLi.add('red');
-    title.textContent = `${book.title} - ${book.author};`;
-    img.src = `./asserts/${book.title.split(' ').join('_')}.jpg`;
-    img.alt = book.title;
-    bookElement.appendChild(title);
-    bookElement.appendChild(img);
-    bookList.appendChild(bookElement);
-  }
-  return bookList;
+  const ulTag = document.createElement('ul');
+
+  books.forEach(book =>{
+    const liTag = document.createElement('li');
+    liTag.textContent = `${book.title}, ${book.author}`;
+    ulTag.appendChild(liTag);
+
+    const imgTag = document.createElement('img');
+    imgTag.src = book.cover;
+    imgTag.alt = `${book.title}`;
+    liTag.appendChild(imgTag);
+
+    if(book.alreadyRead){
+      liTag.style.backgroundColor = 'green';
+    }else{
+      liTag.style.backgroundColor = 'red';
+    }
+  })
+  return ulTag
 }
-
-// function createBookList(books) {
-//   let ulTag = document.createElement('ul');
-
-//   books.forEach(book =>{
-//     let liTag = document.createElement('li');
-//     liTag.textContent = `${book.title}, ${book.author}`;
-//     ulTag.appendChild(liTag);
-
-//     let imgTag = document.createElement('img');
-//     imgTag.src = book.cover;
-//     imgTag.alt = `${book.title}`;
-//     liTag.appendChild(imgTag);
-
-//     if(book.alreadyRead){
-//       liTag.style.backgroundColor = 'green';
-//     }else{
-//       liTag.style.backgroundColor = 'red';
-//     }
-//   })
-//   return ulTag
-// }
 
 
 function main() {

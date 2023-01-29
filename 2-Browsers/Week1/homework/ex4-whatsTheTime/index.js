@@ -11,13 +11,12 @@ const clockTime = document.createElement('div');
 document.body.appendChild(clockTime);
 
 function addCurrentTime() {
-  let date = new Date();
-  let currentTime = date.toLocaleTimeString();
+  const date = new Date();
+  const currentTime = date.toLocaleTimeString();
   clockTime.textContent = currentTime;
-  return currentTime
 }
   
-setInterval(addCurrentTime,1000);
 
 window.addEventListener('load', addCurrentTime);
+setInterval(addCurrentTime,1000);
 

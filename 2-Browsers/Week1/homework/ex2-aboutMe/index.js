@@ -11,16 +11,16 @@ Full description at: https://github.com/HackYourFuture/Homework/tree/main/2-Brow
 
 
 
-let nickNameEl = document.getElementById('nickname');
-nickNameEl.textContent = 'Dodi';
+const nickNameEl = document.getElementById('nickname');
+nickNameEl.textContent = 'tony';
 
-let favFoodEl = document.getElementById('fav-food');
-favFoodEl.textContent = 'Cag kebap';
+const favFoodEl = document.getElementById('fav-food');
+favFoodEl.textContent = 'Cag meat';
 
-let homeTownEl = document.getElementById('hometown');
+const homeTownEl = document.getElementById('hometown');
 homeTownEl.textContent = 'Antalya';
 
-let liEls = document.querySelectorAll('li');
+const liEls = document.querySelectorAll('li');
 liEls.forEach(item => {
   item.className = 'list-item';
 })

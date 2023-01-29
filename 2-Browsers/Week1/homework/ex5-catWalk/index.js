@@ -21,41 +21,38 @@ Full description at: https://github.com/HackYourFuture/Homework/tree/main/2-Brow
 
    https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif
 -----------------------------------------------------------------------------*/
+
 const catImg = document.querySelector('img');
-catImg.style.left = 0;
-let location = 0;
-let interval;
+catImg.style.left = '0px';
 
 function catWalk() {
-  location < window.innerWidth ? (location += 10) : (location = 0);
-  catImg.style.left = `${location}px`;
 
-  if (location === window.innerWidth / 2 - 100) {
+  const leftPosition = Number(catImg.style.left.replace(/[^0-9]/g, ''));
+  if (
+    leftPosition > window.innerWidth / 2 &&
+    leftPosition < window.innerWidth / 2 + 10
+
+  ) {
+    clearInterval(intervalForCat);
     catImg.src =
-      'https://media1.tenor.com/catImgs/2de63e950fb254920054f9bd081e8157/tenor.gif';
-    clearInterval(interval);
+      'https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
     setTimeout(() => {
-      catImg.src = 'http://www.anniemation.com/clip_art/images/cat-walk.gif';
-      interval = setInterval(catWalk, 50);
+      catImg.src =
+        'http://www.anniemation.com/clip_art/images/cat-walk.gif';
+      intervalForCat = setInterval(catWalk, 50);
     }, 5000);
   }
+
+  if (leftPosition > window.innerWidth) {
+    catImg.style.left = '0px';
+    return;
+  }
+  catImg.style.left = `${leftPosition + 10}px`;
 }
-interval = setInterval(catWalk, 50);
-window.onload = () => interval;
 
+let intervalForCat;
+window.onload = function () {
+  intervalForCat = setInterval(catWalk, 50);
 
+};
 
-
-
-let hours = currentTime.getHours();
-  let minutes = currentTime.getMinutes();
-  let seconds = currentTime.getSeconds();
-
-  hours = (hours < 10) ? "0" + hours : hours;
-  minutes = (minutes < 10) ? "0" + minutes : minutes;
-  seconds = (seconds < 10) ? "0" + seconds : seconds;
-  
-  let timeString = hours + ":" + minutes + ":" + seconds;
-  console.log(timeString);
-
-  

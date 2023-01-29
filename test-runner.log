@@ -681,3 +681,59 @@ Ran all test suites matching /ex5-catWalk.test.js/i.
 2023-01-24 06:16:29 error: *** Spell Checker Report ***
 
 
+2023-01-29 08:21:30 info: ----------------------------------------
+2023-01-29 08:21:30 info: >>> Running Unit Test `ex1-bookList` <<<
+2023-01-29 08:21:30 info: ----------------------------------------
+2023-01-29 08:21:42 info: All unit tests passed.
+2023-01-29 08:21:47 error: *** ESLint Report ***
+
+ex1-bookList/index.js
+  22:7  warning  'ulTag' is never reassigned. Use 'const' instead   no-autofix/prefer-const
+  25:9  warning  'liTag' is never reassigned. Use 'const' instead   no-autofix/prefer-const
+  29:9  warning  'imgTag' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 3 problems (0 errors, 3 warnings)
+
+
+2023-01-29 08:22:45 info: ----------------------------------------
+2023-01-29 08:22:45 info: >>> Running Unit Test `ex1-bookList` <<<
+2023-01-29 08:22:45 info: ----------------------------------------
+2023-01-29 08:22:54 info: All unit tests passed.
+2023-01-29 08:23:04 info: All steps were completed successfully
+2023-01-29 08:23:51 info: ---------------------------------------
+2023-01-29 08:23:51 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2023-01-29 08:23:51 info: ---------------------------------------
+2023-01-29 08:24:01 info: All unit tests passed.
+2023-01-29 08:24:10 error: *** Spell Checker Report ***
+
+ex2-aboutMe/index.js:15:27 - Unknown word (Dodi)
+ex2-aboutMe/index.js:18:30 - Unknown word (kebap)
+
+2023-01-29 08:24:45 info: ---------------------------------------
+2023-01-29 08:24:45 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2023-01-29 08:24:45 info: ---------------------------------------
+2023-01-29 08:24:54 info: All unit tests passed.
+2023-01-29 08:25:04 info: All steps were completed successfully
+2023-01-29 08:25:26 info: ------------------------------------------
+2023-01-29 08:25:26 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2023-01-29 08:25:26 info: ------------------------------------------
+2023-01-29 08:25:32 info: All unit tests passed.
+2023-01-29 08:25:41 error: *** Spell Checker Report ***
+
+ex3-hijackLogo.js:11:53 - Unknown word (Xdpd)
+
+2023-01-29 08:26:44 info: ------------------------------------------
+2023-01-29 08:26:44 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2023-01-29 08:26:44 info: ------------------------------------------
+2023-01-29 08:26:50 info: All unit tests passed.
+2023-01-29 08:27:00 info: All steps were completed successfully
+2023-01-29 08:27:44 info: --------------------------------------------
+2023-01-29 08:27:44 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2023-01-29 08:27:44 info: --------------------------------------------
+2023-01-29 08:27:55 info: All unit tests passed.
+2023-01-29 08:28:05 info: All steps were completed successfully
+2023-01-29 08:28:42 info: ---------------------------------------
+2023-01-29 08:28:42 info: >>> Running Unit Test `ex5-catWalk` <<<
+2023-01-29 08:28:42 info: ---------------------------------------
+2023-01-29 08:28:51 info: All unit tests passed.
+2023-01-29 08:29:02 info: All steps were completed successfully
