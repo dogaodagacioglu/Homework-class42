@@ -23,7 +23,7 @@ function createBookList(books) {
 
   books.forEach(book =>{
     const liTag = document.createElement('li');
-    liTag.textContent = `${book.title}, ${book.author}`;
+    
     ulTag.appendChild(liTag);
 
     const imgTag = document.createElement('img');
@@ -31,11 +31,15 @@ function createBookList(books) {
     imgTag.alt = `${book.title}`;
     liTag.appendChild(imgTag);
 
+    const titleAndAuthor = document.createElement('p');
+    
     if(book.alreadyRead){
       liTag.style.backgroundColor = 'green';
     }else{
       liTag.style.backgroundColor = 'red';
     }
+    titleAndAuthor.textContent = `${book.title}, ${book.author}`
+    liTag.appendChild(titleAndAuthor);
   })
   return ulTag
 }

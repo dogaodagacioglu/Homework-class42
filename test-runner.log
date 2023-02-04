@@ -737,3 +737,164 @@ ex3-hijackLogo.js:11:53 - Unknown word (Xdpd)
 2023-01-29 08:28:42 info: ---------------------------------------
 2023-01-29 08:28:51 info: All unit tests passed.
 2023-01-29 08:29:02 info: All steps were completed successfully
+2023-02-03 11:12:34 info: ---------------------------------------
+2023-02-03 11:12:34 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2023-02-03 11:12:34 info: ---------------------------------------
+2023-02-03 11:12:46 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-aboutMe.test.js --colors
+ FAIL  2-Browsers/Week1/unit-tests/ex2-aboutMe.test.js (5.953 s)
+  Generated HTML
+    √ should be syntactically valid (226 ms)
+    √ should have all TODO comments removed (1 ms)
+    × the body font-family should be `Arial, sans-serif` (5 ms)
+    √ each <li> should have the CSS class `list-item` (1 ms)
+    √ each <li> should rendered red (49 ms)
+
+  ● Generated HTML › the body font-family should be `Arial, sans-serif`
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: StringContaining "Arial"
+    Received: ""
+
+      25 |   test('the body font-family should be `Arial, sans-serif`', () => {
+      26 |     const fontFamily = document.body.style.fontFamily;
+    > 27 |     expect(fontFamily).toEqual(expect.stringContaining('Arial'));
+         |                        ^
+      28 |     expect(fontFamily).toEqual(expect.stringContaining('sans-serif'));
+      29 |   });
+      30 |
+
+      at Object.toEqual (2-Browsers/Week1/unit-tests/ex2-aboutMe.test.js:27:24)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 4 passed, 5 total
+Snapshots:   0 total
+Time:        6.178 s
+Ran all test suites matching /ex2-aboutMe.test.js/i.
+2023-02-03 11:13:26 info: ---------------------------------------
+2023-02-03 11:13:26 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2023-02-03 11:13:26 info: ---------------------------------------
+2023-02-03 11:13:34 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-aboutMe.test.js --colors
+ FAIL  2-Browsers/Week1/unit-tests/ex2-aboutMe.test.js
+  Generated HTML
+    √ should be syntactically valid (219 ms)
+    √ should have all TODO comments removed (1 ms)
+    × the body font-family should be `Arial, sans-serif` (5 ms)
+    √ each <li> should have the CSS class `list-item` (2 ms)
+    √ each <li> should rendered red (52 ms)
+
+  ● Generated HTML › the body font-family should be `Arial, sans-serif`
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: StringContaining "Arial"
+    Received: ""
+
+      25 |   test('the body font-family should be `Arial, sans-serif`', () => {
+      26 |     const fontFamily = document.body.style.fontFamily;
+    > 27 |     expect(fontFamily).toEqual(expect.stringContaining('Arial'));
+         |                        ^
+      28 |     expect(fontFamily).toEqual(expect.stringContaining('sans-serif'));
+      29 |   });
+      30 |
+
+      at Object.toEqual (2-Browsers/Week1/unit-tests/ex2-aboutMe.test.js:27:24)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 4 passed, 5 total
+Snapshots:   0 total
+Time:        4.449 s, estimated 6 s
+Ran all test suites matching /ex2-aboutMe.test.js/i.
+2023-02-03 11:17:25 info: ---------------------------------------
+2023-02-03 11:17:25 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2023-02-03 11:17:25 info: ---------------------------------------
+2023-02-03 11:17:33 info: All unit tests passed.
+2023-02-03 11:17:42 info: All steps were completed successfully
+2023-02-04 02:37:25 info: ----------------------------------------
+2023-02-04 02:37:25 info: >>> Running Unit Test `ex1-bookList` <<<
+2023-02-04 02:37:25 info: ----------------------------------------
+2023-02-04 02:37:37 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-bookList.test.js --colors
+ FAIL  2-Browsers/Week1/unit-tests/ex1-bookList.test.js (6.872 s)
+  Generated HTML
+    √ HTML should be syntactically valid (226 ms)
+    √ should have all TODO comments removed
+    √ should contain a <ul> that is a child of <div id="bookList"> (2 ms)
+    √ should contain a <ul> with 3 <li> elements (3 ms)
+    √ should contain an <li> with title and author for each book of the `myBooks` array (3 ms)
+    × should contain an <img> element for each book (3 ms)
+
+  ● Generated HTML › should contain an <img> element for each book
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 3
+    Received: 0
+
+      70 |     const nodeList = document.querySelectorAll('li img');
+      71 |     const result = nodeList ? nodeList.length : 0;
+    > 72 |     expect(result).toBe(3);
+         |                    ^
+      73 |   });
+      74 | });
+      75 |
+
+      at Object.toBe (2-Browsers/Week1/unit-tests/ex1-bookList.test.js:72:20)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 5 passed, 6 total
+Snapshots:   0 total
+Time:        7.147 s
+Ran all test suites matching /ex1-bookList.test.js/i.
+2023-02-04 02:47:05 info: ----------------------------------------
+2023-02-04 02:47:05 info: >>> Running Unit Test `ex1-bookList` <<<
+2023-02-04 02:47:05 info: ----------------------------------------
+2023-02-04 02:47:13 info: All unit tests passed.
+2023-02-04 02:47:22 info: All steps were completed successfully
+2023-02-04 02:48:27 info: --------------------------------------------
+2023-02-04 02:48:27 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2023-02-04 02:48:27 info: --------------------------------------------
+2023-02-04 02:48:37 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-whatsTheTime.test.js --colors
+ FAIL  2-Browsers/Week1/unit-tests/ex4-whatsTheTime.test.js (6.049 s)
+  whatsTheTime
+    √ HTML should be syntactically valid (196 ms)
+    √ should have all TODO comments removed (1 ms)
+    √ should use `setInterval()`
+    × should not call `setInterval()` more than once (2017 ms)
+    √ should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event (1 ms)
+    √ `window.onload` or `window.addEventListener` should not call its event handler function (1 ms)
+
+  ● whatsTheTime › should not call `setInterval()` more than once
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 1
+    Received:    3
+
+      59 |       }, 2000);
+      60 |     });
+    > 61 |     expect(callCount).toBeLessThanOrEqual(1);
+         |                       ^
+      62 |   });
+      63 |
+      64 |   test('should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event', () => {
+
+      at Object.toBeLessThanOrEqual (2-Browsers/Week1/unit-tests/ex4-whatsTheTime.test.js:61:23)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 5 passed, 6 total
+Snapshots:   0 total
+Time:        6.171 s, estimated 7 s
+Ran all test suites matching /ex4-whatsTheTime.test.js/i.
+2023-02-04 03:04:45 info: --------------------------------------------
+2023-02-04 03:04:45 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2023-02-04 03:04:45 info: --------------------------------------------
+2023-02-04 03:04:55 info: All unit tests passed.
+2023-02-04 03:05:04 info: All steps were completed successfully

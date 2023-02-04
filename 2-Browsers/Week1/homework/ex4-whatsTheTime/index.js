@@ -13,10 +13,9 @@ document.body.appendChild(clockTime);
 function addCurrentTime() {
   const date = new Date();
   const currentTime = date.toLocaleTimeString();
-  clockTime.textContent = currentTime;
+  setInterval(() => clockTime.textContent = currentTime,1000);
 }
   
-
 window.addEventListener('load', addCurrentTime);
-setInterval(addCurrentTime,1000);
+
 
