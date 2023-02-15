@@ -1,0 +1,40 @@
+2023-02-15 10:14:42 info: ---------------------------------------------
+2023-02-15 10:14:42 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2023-02-15 10:14:42 info: ---------------------------------------------
+2023-02-15 10:14:54 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js (6.031 s)
+  programmerFun
+    √ HTML should be syntactically valid (213 ms)
+    √ should have all TODO comments removed (1 ms)
+    √ should use `fetch()` (1 ms)
+    √ should use async/wait (1 ms)
+    × should use try/catch (3 ms)
+
+  ● programmerFun › should use try/catch
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      57 |
+      58 |   test('should use try/catch', () => {
+    > 59 |     expect(state.tryCatch).toBeDefined();
+         |                            ^
+      60 |   });
+      61 | });
+      62 |
+
+      at Object.toBeDefined (3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js:59:28)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 4 passed, 5 total
+Snapshots:   0 total
+Time:        6.251 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+2023-02-15 10:24:21 info: ---------------------------------------------
+2023-02-15 10:24:21 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2023-02-15 10:24:21 info: ---------------------------------------------
+2023-02-15 10:24:30 info: All unit tests passed.
+2023-02-15 10:24:38 info: All steps were completed successfully
