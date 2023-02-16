@@ -22,18 +22,60 @@ Use async/await and try/catch to handle promises.
 Try and avoid using global variables. As much as possible, try and use function 
 parameters and return values to pass data back and forth.
 ------------------------------------------------------------------------------*/
-function fetchData(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+
+const url = 'https://pokeapi.co/api/v2/pokemon/'
+
+function fetchData(url) {
+  return fetch(url)
+  .then(response => {
+    if(!response.ok){
+      throw new Error('HTTP error')
+    }
+    const jsonData = response.json();
+    return jsonData
+  })
+  .then(data =>{
+    return data
+  })
+  .catch(error => {
+    console.error(`Network error!`);
+    throw error;
+  })
 }
 
-function fetchAndPopulatePokemons(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+async function fetchAndPopulatePokemons(elements) {
+  const data = await fetchData(url);
+  data.result.forEach(pokemon => {
+    const table = document.createElement('select'); 
+    table.textContent = pokemon.name
+    elements.append(table);
+  })
+  
 }
 
-function fetchImage(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+async function fetchImage(url) {
+  const data = await fetchData(url);
+  data.result.forEach(img => {
+    const imgPokemon = document.createElement('img');
+    imgPokemon.src = img.url;
+    
+  })
+  
+
 }
 
-function main() {
-  // TODO complete this function
+async function main() {
+  try {
+    await fetchData('https://pokeapi.co/api/v2/pokemon?limit=151')
+      .then(data=>{
+        fetchAndPopulatePokemons(data)
+      })
+      .then(data=>{
+        fetchImage(data)
+      })
+  } catch(error){
+    console.log(error);
+  }
 }
+
+window.addEventListener('load', main);
