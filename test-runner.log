@@ -128,3 +128,12 @@ Ran all test suites matching /ex3-rollAnAce.test.js/i.
 2023-02-16 09:47:52 info: -----------------------------------------
 2023-02-16 09:47:56 info: All unit tests passed.
 2023-02-16 09:48:05 info: All steps were completed successfully
+2023-02-16 10:27:22 info: ----------------------------------------
+2023-02-16 10:27:22 info: >>> Running Unit Test `ex4-diceRace` <<<
+2023-02-16 10:27:22 info: ----------------------------------------
+2023-02-16 10:27:27 info: All unit tests passed.
+2023-02-16 10:27:36 info: All steps were completed successfully
+2023-02-16 10:59:26 info: ----------------------------------------
+2023-02-16 10:59:26 info: >>> Running Unit Test `ex4-diceRace` <<<
+2023-02-16 10:59:26 info: ----------------------------------------
+2023-02-16 10:59:31 info: All unit tests passed.
