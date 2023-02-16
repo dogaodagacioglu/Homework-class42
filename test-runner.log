@@ -86,3 +86,45 @@ Tests:       5 passed, 5 total
 Snapshots:   0 total
 Time:        6.155 s
 Ran all test suites matching /ex2-pokemonApp.test.js/i.
+2023-02-16 09:47:23 info: -----------------------------------------
+2023-02-16 09:47:23 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2023-02-16 09:47:23 info: -----------------------------------------
+2023-02-16 09:47:30 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollAnAce.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js
+  ex3-rollAnAce
+    × should have all TODO comments removed (4 ms)
+    √ `rollDieUntil` should not contain unneeded console.log calls (2 ms)
+    √ should not include a recursive call
+    √ should use async/wait (5 ms)
+    √ should use try/catch
+    √ should resolve as soon as a die settles on an ACE (145 ms)
+    √ should reject with an Error when a die rolls off the table (106 ms)
+
+  ● ex3-rollAnAce › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      101 | }
+      102 |
+    > 103 | function testTodosRemoved(getSource) {
+          |                                          ^
+      104 |   test('should have all TODO comments removed', () => {
+      105 |     expect(/\bTODO\b/.test(getSource())).toBeFalsy();
+      106 |   });
+
+      at Object.<anonymous> (test-runner/unit-test-helpers.js:103:42)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 6 passed, 7 total
+Snapshots:   0 total
+Time:        1.678 s
+Ran all test suites matching /ex3-rollAnAce.test.js/i.
+2023-02-16 09:47:52 info: -----------------------------------------
+2023-02-16 09:47:52 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2023-02-16 09:47:52 info: -----------------------------------------
+2023-02-16 09:47:56 info: All unit tests passed.
+2023-02-16 09:48:05 info: All steps were completed successfully
