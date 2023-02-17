@@ -191,3 +191,8 @@ Ran all test suites matching /ex3-rollAnAce.test.js/i.
 2023-02-17 11:44:18 info: ----------------------------------------
 2023-02-17 11:44:18 warn: A unit test file was not provided.
 2023-02-17 11:44:27 info: All steps were completed successfully
+2023-02-17 03:43:22 info: --------------------------------------------
+2023-02-17 03:43:22 info: >>> Running Unit Test `ex6-browserDebug` <<<
+2023-02-17 03:43:22 info: --------------------------------------------
+2023-02-17 03:43:22 warn: A unit test file was not provided.
+2023-02-17 03:43:30 info: All steps were completed successfully
