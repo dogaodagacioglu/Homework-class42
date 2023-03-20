@@ -13,13 +13,13 @@ Complete the function called `checkDoubleDigits` such that:
   number that was passed as an argument.
 ------------------------------------------------------------------------------*/
 function checkDoubleDigits(number) {
-  return new Promise((resolve,reject)=>{
-    if(number > 9 && number < 100){
-      resolve("This is a double digit number!");
+  return new Promise((resolve, reject) => {
+    if (number >= 10 && number < 100) {
+      resolve('This is a double digit number!');
       return;
     }
     reject(new Error(`Expected a double digit number but got ${number}`));
-  })
+  });
 }
 
 function main() {
